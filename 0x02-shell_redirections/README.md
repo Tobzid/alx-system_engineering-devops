@@ -1,1 +1,1 @@
-Write a script that reverse its input.
+Based on the the /etc/passwd file
