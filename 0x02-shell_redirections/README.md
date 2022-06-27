@@ -1,1 +1,1 @@
-Based on the the /etc/passwd file
+Hidden files should be listed
