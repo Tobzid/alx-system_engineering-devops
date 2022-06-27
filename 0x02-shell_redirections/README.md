@@ -1,1 +1,1 @@
-Only regular files
+The ‘decoded’ message has to end with a new line
