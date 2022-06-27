@@ -1,1 +1,1 @@
-not in directory with .js
+counted hiding directory
