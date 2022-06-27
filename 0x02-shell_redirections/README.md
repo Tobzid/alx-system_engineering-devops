@@ -1,1 +1,1 @@
-The file iacta will be in the working directory
+not in directory with .js
