@@ -1,1 +1,1 @@
-Words should be sorted
+Display lines containing the pattern “root” from the file /etc/passwd
