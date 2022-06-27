@@ -1,1 +1,1 @@
-The ‘decoded’ message has to end with a new line
+Order by number of requests, most active host or IP at the top
