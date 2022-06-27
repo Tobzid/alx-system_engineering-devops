@@ -1,1 +1,1 @@
-Hidden files should be listed
+Only regular files
