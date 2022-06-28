@@ -1,1 +1,1 @@
-Write a script that displays the result of BREATH to the power LOVE
+Letters are lower cases, from a to z
