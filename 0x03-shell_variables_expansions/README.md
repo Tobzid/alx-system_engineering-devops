@@ -1,1 +1,1 @@
-Create a script that creates a new local variable.
+the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE,
