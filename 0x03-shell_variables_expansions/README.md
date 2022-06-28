@@ -1,1 +1,1 @@
-a script that says heelo user by bash
+ a script that counts the number of directories in the PATH.
