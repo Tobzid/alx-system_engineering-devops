@@ -1,0 +1,1 @@
+enviroment script by bash
