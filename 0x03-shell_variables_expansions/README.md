@@ -1,1 +1,1 @@
- number will be stored in the environment variable NUM.
+script that converts a number from base 10 to base 16.
