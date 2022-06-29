@@ -1,1 +1,1 @@
- a script that prints all possible combinations of two letters, except oo.
+ number will be stored in the environment variable NUM.
