@@ -1,1 +1,1 @@
-Letters are lower cases, from a to z
+script that creates a new local variable.
