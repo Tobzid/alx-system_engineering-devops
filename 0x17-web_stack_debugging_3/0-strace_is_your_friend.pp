@@ -1,15 +1,10 @@
-#Fix the log Errors, catch the error and fix it
-exec {'/etc/php5/apache2/php.ini':
-  path    => [ '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin' ],
-  command => "sed -i 's/display_errors = Off/display_errors = On/g' /etc/php5/apache2/php.ini",
-}
+# A puppet manuscript to replace a line in a file on a server
 
-exec { '/var/www/html/wp-setting.php':
-  path    => [ '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin' ],
-  command => "sed -i 's/class-wp-locale.phpp/class-wp-locale.php/g' /var/www/html/wp-settings.php",
-}
+$file_to_edit = '/var/www/html/wp-settings.php'
 
-exec {'/etc/init.d/apache2':
-  path    => ['/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'],
-  command => '/etc/init.d/apache2 restart',
+#replace line containing "phpp" with "php"
+
+exec { 'replace_line':
+  command => "sed -i 's/phpp/php/g' ${file_to_edit}",
+  path    => ['/bin','/usr/bin']
 }
